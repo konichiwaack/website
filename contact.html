@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<!--Author: Clarence Tang-->
+<head>
+	<title>Konichiwaack Official</title>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" type="image/png" href="images/favicon.png">
+	<link rel="stylesheet" href="css/konichistyle.css">
+</head>
+<body>
+	<div id="wrapper">
+			<header>
+				<div id="header_button"><a href="index.html"><img id="header_logo" src="images/header_logo.png" alt="Konichiwaack"></a></div>
+			</header>
+				<nav>
+					<div id="nav_table">
+						<ul id="nav_ul">
+							<li class="nav_li"><a class="nav_a" href="index.html">Home</a></li>
+							<li class="nav_li"><a class="nav_a" href="about.html">About</a></li>
+							<li id="nav_space_left" class="nav_li"><a class="nav_a" href="konichicats.html">Konichicats</a></li>
+							<li id="nav_space_right" class="nav_li"><a class="nav_a" href="photos.html">Photos</a></li>
+							<li class="nav_li"><a class="nav_a" href="videos.html">Videos</a></li>
+							<li class="nav_li" id="current_page">Contact</li>
+						</ul>
+					</div>	
+				</nav>
+			<div id="spacer1"></div>
+			<main>
+				<div id="content">
+				<h1 id="contact_header">Send us an e-meow!</h1>
+					<form id="contact_form" method="post" action="php/formmail.php">	
+					<fieldset id="contact_fieldset">
+						<input 	type="hidden" 
+								name="recipient" 
+								value="clarencetang@hotmail.com" />
+						<label class="labels" for="name">Name:</label><br />
+						<input 	class="input_info" type="text"
+								name="name"
+								id="name" /><br />
+								
+						<label class="labels" for="email">Email:</label><br />
+						<input class="input_info" 	type="text"
+								name="email"
+								id="email" /><br />
+								
+						<label class="labels" for="subject">Subject:</label><br />
+						<input 	class="input_info" type="text"
+								name="subject"
+								id="subject" /><br />
+						<label class="labels" id="message_label" for="message">Message:</label><br />
+						<textarea	name="message" 
+									id="message"></textarea><br />
+						<input	type="checkbox"
+								name="subscribe"
+								id="subscribe" />
+						<label id="subscribe_label" for="subscribe">Click here to receive email updates</label><br />
+						<input 	id="submit_button"
+								type="image"
+								alt="submit button"
+								src="images/submit_button.png"  
+								class="button" />
+								
+					</fieldset>
+					</form>
+				</div>
+			</main>
+			<div id="spacer2"></div>
+			<footer>
+				<div id="footer_container">
+					<div id="konichigame">
+						<img id="konichigame_cat" src="images/eyebrows_logo.png" alt="konichicat logo with eyebrows">
+						<div id="play_text"><h3 id="play"><a id="play_a" href="konichigame.html">I want to play a<br />Konichigame</a></h3>
+						</div>
+					</div>
+					<div id="social">
+						<a id="facebook_a" href="http://wwww.facebook.com/konichiwaack" target="_blank"><img id="facebook" class="social_icons" src="images/facebook.png" alt="facebook link"></a>
+						<a id="youtube_a" href="http://www.youtube.com/konichiwaack" target="_blank"><img class="social_icons" src="images/youtube2.png" alt="youtube link"></a>
+						<a id="instagram_a" href="http://www.instagram.com/konichiwaack" target="_blank"><img id="instagram" class="social_icons" src="images/instagram.png" alt="instagram link"></a>
+					</div>
+					<div id="copy">
+					<h3 id="sitemap_footer"><a id="sitemap_a" href="sitemap.html">SITEMAP</a></h3>
+					<h3 id="copyright_text">&copy; copyright konichiwaack 2019</h3>
+					</div>
+				</div>
+			</footer>
+	</div>
+	
+</body>
+</html>
