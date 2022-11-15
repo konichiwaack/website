@@ -1,0 +1,485 @@
+/*Author: Clarence Tang*/
+
+/*
+===================================
+HTML SELECTORS
+
+Colors:
+Lighter Teal: #d8fbf2
+Light Teal: #abf7e4
+Hard Teal: #7cf3d6
+Light Pink: #f7a0d3
+Lighter Pink: #fbd3eb
+Grey: #2e353a
+===================================
+*/
+body{
+	margin:0;
+	font-family:trebuchet, sans-serif;
+	color:#abf7e4;
+}
+*{
+	box-sizing:border-box;
+}
+header{
+	width:100%;
+	min-width:1000px;
+	position:fixed;
+	z-index:2;
+	height:0px;
+}
+nav{
+	height:105px;
+	background:black;
+	position:fixed;
+	width:100%;
+	z-index:1;
+}
+footer{
+	height:105px;
+	width:100%;
+	background:black;
+	position:fixed;
+	bottom:0;
+}
+p{
+	margin-top:0px;
+}
+td{
+	width:400px;
+	text-align:center;
+}
+/*
+===========================================================================================
+CLASS SELECTORS NAV
+===========================================================================================
+*/
+.nav_li{
+	list-style-type:none;
+	display:inline-block;
+	width:110px;
+	text-align:center;
+	color:white;
+	letter-spacing:0.1em;
+	font-weight:bold;
+	font-size:0.95em;
+	color:#abf7e4;
+	height:38px;
+}
+.nav_a{
+	color:white;
+	text-decoration:none;
+	display:inline-block;
+	width:110px;
+	color:#abf7e4;
+	height:38px;
+}
+.nav_a:hover{
+	color:#fbd3eb;
+	border-bottom-style:solid;
+	border-bottom-width:5px;
+	border-bottom-color:#fbd3eb;
+}
+/*
+===================================
+CLASS SELECTORS FOOTER
+===================================
+*/
+.social_icons{
+	height:50px;
+	width:50px;
+}
+.center{
+	margin:auto;
+}
+/*
+===================================
+CLASS SELECTORS ABOUT US
+===================================
+*/
+.no_margin{
+	margin:10px;
+}
+/*
+===================================
+CLASS SELECTORS KONICHICATS
+===================================
+*/
+.konichicat_carousel{
+	width:400px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.cat_name{
+	color:#7cf3d6;
+	position:relative;
+	bottom:25px;
+}
+.cat_description{
+	font-weight:bold;
+	color:white;
+	font-size:0.9em;
+	position:relative;
+	bottom:25px;
+}
+.answers{
+	color:#f7a0d3
+}
+/*
+===================================
+CLASS SELECTORS PHOTOS
+===================================
+*/
+.konichiphoto{
+	margin:5px;
+	margin-top:0px;
+	margin-bottom:10px;
+}
+/*
+===================================
+CLASS SELECTORS VIDEOS
+===================================
+*/
+.videovideos{
+	display:block;
+	margin:auto;
+}
+.video_text{
+	margin-left:100px;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-top:0px;
+	padding-bottom:10px;
+	color:#f7a0d3;
+	font-weight:bold;
+}
+.extra_margin{
+	margin-top:80px;
+	margin-left:100px;
+	margin-bottom:10px;
+	padding-top:0px;
+	padding-bottom:0px;
+	color:#abf7e4;
+}
+.video_header{
+	margin-left:100px;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-top:0px;
+	padding-bottom:10px;
+	color:#abf7e4;
+}
+/*
+===================================
+CLASS SELECTORS CONTACT
+===================================
+*/
+.labels{
+	color:#f7a0d3;
+	margin-left:20px;
+	font-weight:bold;
+	display:inline-block;
+	margin-top:10px;
+	margin-bottom:0px;
+	
+}
+.input_info{
+	margin-left:20px;
+	height:30px;
+	width:400px;
+}
+/*
+===================================
+CLASS SELECTORS CONTACT
+===================================
+*/
+.sitemap_link{
+	margin-left:50px;
+	color:#abf7e4
+}
+.sitemap_link:hover{
+	color:#f7a0d3
+}
+/*
+===========================================================================================
+ID SELECTORS BODY
+===========================================================================================
+*/
+#spacer1{
+	display:block;
+	height:105px;
+}
+#spacer2{
+	height:100px;
+}
+#content{
+	width:1000px;
+	margin:auto;
+	background-color:#2e353a;
+	position:relative;
+	padding-top:90px;
+}
+/*
+===================================
+ID SELECTORS HEADER
+===================================
+*/
+
+#wrapper{
+	width:100%;
+	margin:auto;
+	background-image:linear-gradient(#abf7e4,#f7a0d3);
+}
+#header_logo{
+	width:200px;
+	height:179px;
+	display:block;
+	margin:auto;
+}
+#header_button{
+	background-color:#000000;
+	width: 200px;
+	height: 170px;
+	border-radius: 50%;
+	margin:auto;
+}
+/*
+===================================
+ID SELECTORS NAV
+===================================
+*/
+#nav_table{
+	display:table;
+	margin:auto;
+	width:1000px;
+}
+#nav_ul{
+	margin:auto;
+	margin-top:67px;
+	padding-left:0;
+}
+#current_page{
+	color:#fbd3eb;
+	border-bottom-style:solid;
+	border-bottom-width:5px;
+	border-bottom-color:#fbd3eb;
+}
+#nav_space_left{
+	margin-right:175px;
+}
+#nav_space_right{
+	margin-left:140px;
+}
+#nav_space_left_current_page{
+	margin-right:175px;
+	color:#fbd3eb;
+	border-bottom-style:solid;
+	border-bottom-width:5px;
+	border-bottom-color:#fbd3eb;
+}
+#nav_space_right_current_page{
+	margin-left:140px;
+	color:#fbd3eb;
+	border-bottom-style:solid;
+	border-bottom-width:5px;
+	border-bottom-color:#fbd3eb;
+}
+/*
+===================================
+ID SELECTORS FOOTER
+===================================
+*/
+#footer_container{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	display:table;
+}
+
+#konichigame_cat{
+	float:left;
+	height:50px;
+	width:59px;
+	padding-left:10px;
+	padding-right:10px;
+	border-right-style:solid;
+	border-right-width:3px;
+	border-right-color:#fbd3eb;
+	margin-top:20px;
+	display:none;
+}
+/*DISPLAY HIDDEN (REMOVE LATER)*/
+#play{
+	margin-left:10px;
+	font-size:0.95em;
+}
+#play_text{
+	float:left;
+	height:70px;
+	width:160px;
+	margin-top:10px;
+	position:relative;
+	display:none;
+}
+/*DISPLAY HIDDEN (REMOVE LATER)*/
+#play_a{
+	display:inline-block;
+	width:160px;
+	color:#abf7e4;
+	text-decoration:none;
+	position:absolute;
+	bottom:8px;
+}
+#play_a:hover{
+	color:#fbd3eb;
+}
+#konichigame{
+	width:333px;
+	display:inline-block;
+	vertical-align:top;
+}
+#social{
+	width:333px;
+	display:inline-block;
+	vertical-align:top;
+	margin-top:20px;
+}
+#facebook_a{
+	margin-left:90px
+}
+#instagram_a{
+	margin-right:80px;
+}
+#copy{
+	width:333px;
+	display:inline-block;
+	vertical-align:bottom;
+}
+#copyright_text{
+	font-size:0.90em;
+	color:#abf7e4;
+	margin-left:110px;
+	margin-bottom:0px;
+	margin-top:0px;
+}
+#sitemap_footer{
+	margin-bottom:5px;
+}
+#sitemap_a{
+	color:#abf7e4;
+	margin-left:110px;
+	text-decoration:none;
+	margin-bottom:10px;
+}
+#sitemap_a:hover{
+	color:#fbd3eb;
+}
+/*
+===================================
+ID SELECTORS HOME PAGE
+===================================
+*/
+#home_page_content{
+	width:1000px;
+	margin:auto;
+	position:relative;
+}
+#home_page_video{
+	position:absolute;
+	top:190px;
+	left:40px;
+}
+/*
+===================================
+ID SELECTORS ABOUT
+===================================
+*/
+#aboutus_content{
+	width:1000px;
+	margin:auto;
+	position:relative;
+	position:relative;
+}
+#aboutus_text{
+	position:absolute;
+	top:115px;
+	left:40px;
+	width:350px;
+	margin:0px;
+	font-size:0.85em;
+	font-weight:bold;
+	color:#d8fbf2
+}
+/*
+===================================
+ID SELECTORS KONICHICATS
+===================================
+*/
+#cat_table{
+	width:95%;
+	margin:auto;
+}
+/*
+===================================
+ID SELECTORS PHOTO
+===================================
+*/
+#photo_container{
+	text-align:center;
+}
+#photo_credit{
+	padding-bottom: 20px;
+    margin-bottom: 0px;
+	margin:0px;
+	margin-left:78px;
+}
+/*
+===================================
+ID SELECTORS CONTACT
+===================================
+*/
+#contact_header{
+	margin-left:50px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+#message{
+	margin-left:20px;
+	margin-right:20px;
+}
+#subscribe{
+	margin-left:20px;
+}
+#subscribe_label{
+	color:#f7a0d3;
+	font-weight:bold;
+}
+#contact_fieldset{
+	margin-left:50px;
+	background-color:black;
+	width:466px;
+	padding-bottom:20px;
+}
+#message{
+	width:400px;
+	height:200px;
+}
+#contact_form{
+	padding-bottom:100px;
+}
+#submit_button{
+	margin-top:10px;
+	margin-left: 168px;
+}
+/*
+===================================
+ID SELECTORS CONTACT
+===================================
+*/
+#sitemap_header{
+	margin-left:50px;
+}
+#sitemap_container{
+	display:block;
+	height:588px;
+}
